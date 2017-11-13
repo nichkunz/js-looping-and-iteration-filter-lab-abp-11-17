@@ -4,12 +4,11 @@
 function findMatching(drivers, name) {
   drivers.filter(function(driver){
     if (){
-      
-    } 
-    return true
+      return true
+    }
     else (){
       return false
-    } 
+    }
   })
 }
 //drivers: "Bobby", "Sally"
