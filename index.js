@@ -6,7 +6,7 @@ function findMatching(drivers, name) {
     if (name === driver){
       return true
     }
-    else (){
+    else {
       return false
     }
   })
