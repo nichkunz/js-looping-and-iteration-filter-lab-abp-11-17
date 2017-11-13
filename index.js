@@ -21,7 +21,7 @@ function fuzzyMatch(drivers, fLetters) {
 
 function matchName(drivers, name) {
   return drivers.filter(function(driver){
-    if (name === driver){
+    if (drivers.name === driver){
       return drivers.name;
       return drivers.hometown;
     }
