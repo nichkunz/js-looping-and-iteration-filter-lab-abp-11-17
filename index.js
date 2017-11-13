@@ -13,13 +13,8 @@ function findMatching(drivers, name) {
 }
 
 function fuzzyMatch(drivers, fLetters) {
-  let lengthOfName = fLetters.length; 
+  let lengthOfName = fLetters.length;
   return drivers.filter(function(name){
-    if (name.toLowerCase() === fLetters.toLowerCase()){
-      return true
-    }
-    else {
-      return false
-    }
-  })
+    return name.slice(0, lengthOfName) === fLetters;
+  }
 }
