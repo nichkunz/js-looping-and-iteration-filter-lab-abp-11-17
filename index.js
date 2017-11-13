@@ -13,7 +13,7 @@ function findMatching(drivers, name) {
 }
 
 function fuzzyMatch(drivers, name) {
-  return drivers.filter(function(fLetters){
+  return drivers.filter(function(fLetters.split){
     if (name.toLowerCase() === fLetters.toLowerCase()){
       return true
     }
