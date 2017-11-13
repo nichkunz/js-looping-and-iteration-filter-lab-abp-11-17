@@ -19,4 +19,6 @@ function fuzzyMatch(drivers, fLetters) {
   })
 }
 
-
+function matchName(drivers, name) {
+  
+}
