@@ -2,7 +2,7 @@
 
 
 function findMatching(drivers, name) {
-  if (driver === )
+  drivers.filter(function())
     return 
 }
 //drivers: "Bobby", "Sally"
