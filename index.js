@@ -3,7 +3,7 @@
 
 function findMatching(drivers, name) {
   return drivers.filter(function(driver){
-    if (name.loLowerCase === driver.toLowerCase){
+    if (name === driver){
       return true
     }
     else {
