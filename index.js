@@ -14,11 +14,11 @@ function findMatching(drivers, name) {
 
 function fuzzyMatch(drivers, name) {
   return drivers.filter(function(fLetter){
-    if (name.toLowerCase.slice(beginIndex[, endIndex]) === fLetter.toLowerCase.slice(beginIndex[, endIndex])){
+    if (name.toLowerCase.slice(beginIndex[, endIndex]) === fLetter.toLowerCase.slice(beginIndex[, endIndex]){
       return true
     }
     else {
       return false
     }
-  }
+  })
 }
