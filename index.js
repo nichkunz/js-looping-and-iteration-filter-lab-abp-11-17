@@ -12,8 +12,9 @@ function findMatching(drivers, name) {
   })
 }
 
-function fuzzyMatch(drivers, name) {
-  return drivers.filter(function(fLetters){
+function fuzzyMatch(drivers, fLetters) {
+  let lengthOfName = fLetters.length; 
+  return drivers.filter(function(name){
     if (name.toLowerCase() === fLetters.toLowerCase()){
       return true
     }
