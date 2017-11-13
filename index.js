@@ -11,4 +11,3 @@ function findMatching(drivers, name) {
     }
   })
 }
-//drivers: "Bobby", "Sally"
